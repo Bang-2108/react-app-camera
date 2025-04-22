@@ -5,14 +5,18 @@ import Content from '../Content/Content';
 import Footer from '../Footer/Footer';
 import RightContent from '../Content/RightContent';
 import LeftContent from '../Content/LeftContent';
+import StateDemo from '../State/StateDemo';
+import Counter from '../State/Counter';
+import DienTich from '../State/DienTichFunction';
+import GetData from '../State/GetData';
 
 function App() {
   return (
     <div id="container">
-      <Header></Header>
-      <LeftContent></LeftContent>
-      <RightContent></RightContent>
-      <Footer></Footer>
+      {/* <StateDemo></StateDemo>
+      <Counter></Counter> */}
+      {/* <DienTich></DienTich> */}
+      <GetData></GetData>
     </div>
     
   );
